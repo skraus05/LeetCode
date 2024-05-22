@@ -1,5 +1,5 @@
 class Solution:
     def mySqrt(self, x: int) -> int:
-        x = x ** 0.5
+        x = math.sqrt(x)
         roundedDown = math.floor(x)
         return roundedDown
